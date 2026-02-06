@@ -1,27 +1,55 @@
 # HRMS Lite
 
-A lightweight Human Resource Management System for internal admin use.
+HRMS Lite is a lightweight Human Resource Management System designed for internal admin use.  
+The application helps manage employees and attendance records through a simple and clean interface.
 
-## Features
-- Employee management (add, list, delete)
+This project is built as a **full-stack web application** with a separate frontend and backend, following an industry-style project structure.
+
+---
+
+## 📌 Project Overview
+
+HRMS Lite provides basic HR functionalities such as:
+- Employee management
 - Attendance tracking
-- RESTful APIs
-- Clean and professional UI
+- Viewing attendance records
 
-## Tech Stack
-- Backend: Node.js, Express, Sequelize, SQLite
-- Frontend: React (Vite)
-- Deployment: Render & Netlify
+The goal of this project is to demonstrate full-stack development skills, REST API integration, and clean frontend-backend separation.
 
-## Getting Started
+---
+
+## 🛠️ Tech Stack Used
+
+### Frontend
+- React (Vite)
+- Axios
+- CSS
 
 ### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+
+### Tools & Utilities
+- Git & GitHub
+- Postman (API testing)
+
+---
+
+## ▶️ Steps to Run the Project Locally
+
+### 1️⃣ Clone the Repository
 ```bash
+git clone https://github.com/01Avantika/HRMS-Lite.git
+#for backend
 cd backend
 npm install
-npm run dev
+npm start
 
-###Frontend
+#Run the Frontend Open a new terminal:
 cd frontend
 npm install
 npm run dev
+
+cd HRMS-Lite
