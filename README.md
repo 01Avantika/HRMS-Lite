@@ -36,6 +36,9 @@ The goal of this project is to demonstrate full-stack development skills, REST A
 - Postman (API testing)
 
 ---
+##Deployment 
+Vercel(Frontend) : https://hrmslite-weld.vercel.app/
+Render(Backend) : https://hrms-lite-yyll.onrender.com/health
 
 ## ▶️ Steps to Run the Project Locally
 
