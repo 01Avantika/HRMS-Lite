@@ -5,7 +5,9 @@ import AttendanceTable from "../components/AttendanceTable";
 
 export default function Attendance() {
   const [records, setRecords] = useState([]);
+  // eslint-disable-next-line no-unused-vars
   const [employeeId, setEmployeeId] = useState("");
+
   const [selectedDate, setSelectedDate] = useState("");
 
 const filteredRecords = selectedDate
